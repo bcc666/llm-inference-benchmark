@@ -4,5 +4,8 @@ __pycache__/
 *.bin
 data/
 checkpoints/
-results/
-!results/*.json     # 忽略 results 目录，但保留其中的 json 结果文件
+
+results/*
+!results/*.json
+
+logs/
