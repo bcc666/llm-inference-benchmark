@@ -1,0 +1,2 @@
+date,config,ttft_ms,tpot_ms,latency_ms,tokens_per_s,peak_mem_gb,decode_util_pct,method,notes
+2026-09-27,batch=1_min-of-5,27.9,22.5,1442.8,44.4,1.01,30,sync_forward+streamer,"Qwen2.5-0.5B-Instruct fp16 2080Ti; min_new_tokens=64 锁长; CPU-bound decode (GPU ~6ms/步 vs Python ~22ms/步); util 来自 logs/w39/util_decode.csv"

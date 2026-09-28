@@ -7,5 +7,6 @@ checkpoints/
 
 results/*
 !results/*.json
-
+!results/w39/
+!results/w39/*.csv
 logs/
